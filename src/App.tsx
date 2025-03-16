@@ -49,8 +49,12 @@ function App() {
       </div>
 
       <p className="text-gray-600 text-center max-w-md">
-        A simple timer extension to help you track time. Click start to begin timing, 
-        pause to stop temporarily, and reset to start over.
+        A simple extension to help you track time. 
+      </p>
+
+      <p className="text-gray-600 text-center max-w-md mt-4">
+      Click start to begin timing, 
+      pause to stop temporarily, and reset to start over.
       </p>
     </div>
   );
