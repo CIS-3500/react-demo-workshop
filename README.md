@@ -1,12 +1,16 @@
-# Chrome Extension Starter (React, TypeScript, Vite)
+# Chrome Extension Starter (React, TypeScript, Vite, Tailwind CSS)
 
-This project demonstrates how to build a Chrome extension using [React](https://react.dev/) with TypeScript and Vite. It showcases key features such as interacting with Chrome APIs ([storage](https://developer.chrome.com/docs/extensions/reference/api/storage), [contextMenus](https://developer.chrome.com/docs/extensions/reference/api/contextMenus)), testing with [Jest](https://jestjs.io/) and [Sinon](https://sinonjs.org/), and structuring a React app with separation of concerns.
+This project demonstrates how to build a Chrome extension using [React](https://react.dev/) with TypeScript, Vite, and Tailwind CSS. It showcases key features such as interacting with Chrome APIs ([storage](https://developer.chrome.com/docs/extensions/reference/api/storage), [contextMenus](https://developer.chrome.com/docs/extensions/reference/api/contextMenus)), testing with [Jest](https://jestjs.io/) and [Sinon](https://sinonjs.org/), and structuring a React app with separation of concerns.
+
+## React Demo Workshop
+
+For a detailed walkthrough of this project, check out the [React Demo Workshop slides](https://docs.google.com/presentation/d/106hIswapC1hMDdMOiNyFHtsPqcII4vTHh9RCkQn4ZYg/edit?usp=sharing).
 
 ## Installation
 
 ### Install From Release
 
-- Download the latest release from the [Releases](https://github.com/CIS-3500/chrome-extension-react-typescript-vite-starter-main/releases)
+- Download the latest release from the [Releases](https://github.com/CIS-3500/react-demo-workshop/releases)
 - Unzip the downloaded ZIP file
 - Open Chrome and navigate to `chrome://extensions`
 - Enable "Developer mode"
@@ -17,13 +21,13 @@ This project demonstrates how to build a Chrome extension using [React](https://
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/CIS-3500/chrome-extension-react-typescript-vite-starter-main
+   git clone https://github.com/CIS-3500/react-demo-workshop
    ```
 
 2. Install dependencies:
 
    ```bash
-   cd chrome-extension-react-typescript-vite-starter-main
+   cd react-demo-workshop
    npm install
    ```
 
@@ -118,6 +122,6 @@ You are welcome to use this repository as a starting point for your own work. Th
 
 The initial setup of this project was based on the tutorial by [Harshita Joshi](https://github.com/Harshita-mindfire) on creating a Chrome extension with React and TypeScript. The corresponding Medium article can be found [here](https://medium.com/@tharshita13/creating-a-chrome-extension-with-react-a-step-by-step-guide-47fe9bab24a1).
 
-Further setup was done by [Michelle Chang](https://github.com/michellechang02) by replacing the Webpack initialization of the app with Vite.
+Further setup was done by [Michelle Chang](https://github.com/michellechang02) by replacing the Webpack initialization of the app with Vite and adding Tailwind CSS.
 
 The project has been extended with additional functionality, testing setup, and documentation. The most difficult part was figuring out the right combination of packages for the testing suite (for instance, I would avoid `jest-chrome`, `mockzilla`, `mockzilla-webextension`, to name but a few).
